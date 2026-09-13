@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Learning Hub - Vocational High School</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans flex flex-col min-h-screen">
+
+    <!-- Header / Navbar -->
+    <header class="bg-indigo-900 text-white shadow-md sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <i data-lucide="book-open-check" class="w-8 h-8 text-amber-400"></i>
+                <div>
+                    <h1 class="font-bold text-lg md:text-xl leading-tight">English for Vocational Studies</h1>
+                    <p class="text-xs text-indigo-200">Hospitality & Fashion Design Material Hub</p>
+                </div>
+            </div>
+            <nav class="hidden md:flex space-x-6 text-sm font-medium">
+                <a href="#kelas10" class="hover:text-amber-400 transition">Kelas X (Perhotelan & Busana)</a>
+                <a href="#kelas11" class="hover:text-amber-400 transition">Kelas XI (Perhotelan)</a>
+                <a href="#resources" class="hover:text-amber-400 transition">Resources</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-indigo-800 to-indigo-600 text-white py-12 px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <span class="bg-indigo-950 text-amber-300 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">Vocational English Hub</span>
+            <h2 class="text-3xl md:text-5xl font-extrabold mt-4 mb-3">Interactive English Learning</h2>
+            <p class="text-indigo-100 text-sm md:text-base max-w-2xl mx-auto">
+                Pusat materi, panduan *roleplay*, kosakata teknis (*industry vocabulary*), dan latihan interaktif khusus konsentrasi keahlian Perhotelan dan Tata Busana.
+            </p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="max-w-6xl mx-auto px-4 py-10 flex-grow w-full space-y-12">
+
+        <!-- KELAS 10 SECTION -->
+        <section id="kelas10" class="scroll-mt-20">
+            <div class="flex items-center space-x-3 border-b-2 border-indigo-200 pb-3 mb-6">
+                <i data-lucide="sparkles" class="w-6 h-6 text-indigo-600"></i>
+                <h3 class="text-2xl font-bold text-slate-800">Kelas X — General & Industry Foundations</h3>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Card: X Perhotelan -->
+                <div class="bg-white border border-slate-200 rounded-xl shadow-sm hover:shadow-md transition p-6 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="bg-emerald-100 text-emerald-800 text-xs font-semibold px-2.5 py-0.5 rounded">Perhotelan</span>
+                            <i data-lucide="hotel" class="w-5 h-5 text-emerald-600"></i>
+                        </div>
+                        <h4 class="text-xl font-bold mb-2 text-slate-800">Hospitality Basics & Service Greetings</h4>
+                        <p class="text-slate-600 text-sm mb-4">
+                            Materi dasar penerimaan tamu, *handling basic inquiries*, ucapan salam standar industri, dan *describing hotel facilities*.
+                        </p>
+                        <ul class="text-xs text-slate-500 space-y-1.5 mb-6">
+                            <li class="flex items-center"><i data-lucide="check-circle-2" class="w-3.5 h-3.5 mr-2 text-emerald-500"></i> Unit 1: Professional Greetings & Self-Introduction</li>
+                            <li class="flex items-center"><i data-lucide="check-circle-2" class="w-3.5 h-3.5 mr-2 text-emerald-500"></i> Unit 2: Giving Directions in Hotel Area</li>
+                            <li class="flex items-center"><i data-lucide="check-circle-2" class="w-3.5 h-3.5 mr-2 text-emerald-500"></i> Unit 3: Descriptive Text (Hotel Amenities & Eco-Hotels)</li>
+                        </ul>
+                    </div>
+                    <a href="materi/kelas10-perhotelan.html" class="inline-flex justify-center items-center px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white font-medium text-sm rounded-lg transition">
+                        Buka Materi <i data-lucide="arrow-right" class="w-4 h-4 ml-2"></i>
+                    </a>
+                </div>
+
+                <!-- Card: X Busana -->
+                <div class="bg-white border border-slate-200 rounded-xl shadow-sm hover:shadow-md transition p-6 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="bg-rose-100 text-rose-800 text-xs font-semibold px-2.5 py-0.5 rounded">Tata Busana</span>
+                            <i data-lucide="scissors" class="w-5 h-5 text-rose-600"></i>
+                        </div>
+                        <h4 class="text-xl font-bold mb-2 text-slate-800">Fashion Terminology & Design Descriptions</h4>
+                        <p class="text-slate-600 text-sm mb-4">
+                            Pengenalan jenis kain, istilah alat jahit, mendeskripsikan gaya berpakaian (*fashion styles*), serta instruksi kerja sederhana.
+                        </p>
+                        <ul class="text-xs text-slate-500 space-y-1.5 mb-6">
+                            <li class="flex items-center"><i data-lucide="check-circle-2" class="w-3.5 h-3.5 mr-2 text-rose-500"></i> Unit 1: Sewing Tools & Fabric Types Vocabulary</li>
+                            <li class="flex items-center"><i data-lucide="check-circle-2" class="w-3.5 h-3.5 mr-2 text-rose-500"></i> Unit 2: Describing Outfits & Fashion Trends</li>
+                            <li class="flex items-center"><i data-lucide="check-circle-2" class="w-3.5 h-3.5 mr-2 text-rose-500"></i> Unit 3: Procedure Text (Basic Garment Making)</li>
+                        </ul>
+                    </div>
+                    <a href="materi/kelas10-busana.html" class="inline-flex justify-center items-center px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white font-medium text-sm rounded-lg transition">
+                        Buka Materi <i data-lucide="arrow-right" class="w-4 h-4 ml-2"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- KELAS 11 SECTION -->
+        <section id="kelas11" class="scroll-mt-20">
+            <div class="flex items-center space-x-3 border-b-2 border-indigo-200 pb-3 mb-6">
+                <i data-lucide="award" class="w-6 h-6 text-indigo-600"></i>
+                <h3 class="text-2xl font-bold text-slate-800">Kelas XI — Advanced Professional Communication</h3>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Card: XI Perhotelan -->
+                <div class="bg-white border border-slate-200 rounded-xl shadow-sm hover:shadow-md transition p-6 flex flex-col justify-between md:col-span-2">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="bg-amber-100 text-amber-800 text-xs font-semibold px-2.5 py-0.5 rounded">Perhotelan Advanced</span>
+                            <i data-lucide="concierge-bell" class="w-5 h-5 text-amber-600"></i>
+                        </div>
+                        <h4 class="text-xl font-bold mb-2 text-slate-800">Front Office, Reservation & Guest Handling</h4>
+                        <p class="text-slate-600 text-sm mb-4">
+                            Komunikasi tingkat lanjut untuk profesional perhotelan: penanganan reservasi via telepon, menyikapi keluhan pelanggan (*complaint handling*), serta rekomendasi destinasi wisata (*concierge service*).
+                        </p>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs text-slate-500 mb-6">
+                            <div class="p-3 bg-slate-50 rounded-lg border border-slate-100">
+                                <strong class="block text-slate-700 mb-1">Unit 1: Room Reservations</strong>
+                                Telephoning etiquette, taking room bookings, confirming details.
+                            </div>
+                            <div class="p-3 bg-slate-50 rounded-lg border border-slate-100">
+                                <strong class="block text-slate-700 mb-1">Unit 2: Handling Complaints</strong>
+                                HEAT technique (Hear, Empathize, Apologize, Take Action).
+                            </div>
+                            <div class="p-3 bg-slate-50 rounded-lg border border-slate-100">
+                                <strong class="block text-slate-700 mb-1">Unit 3: Concierge & Tourism</strong>
+                                Suggesting local attractions, dining recommendations.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-end">
+                        <a href="materi/kelas11-perhotelan.html" class="inline-flex items-center px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white font-medium text-sm rounded-lg transition">
+                            Buka Materi Kelas XI <i data-lucide="arrow-right" class="w-4 h-4 ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- DOWNLOADABLE / INTERACTIVE RESOURCES -->
+        <section id="resources" class="bg-indigo-50 border border-indigo-100 rounded-2xl p-6 md:p-8">
+            <h3 class="text-xl font-bold text-indigo-950 mb-4 flex items-center">
+                <i data-lucide="folder-down" class="w-5 h-5 mr-2 text-indigo-600"></i> Supporting Learning Materials
+            </h3>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                <a href="#" class="p-4 bg-white rounded-xl shadow-sm border border-slate-200 hover:border-indigo-400 transition flex items-center space-x-3">
+                    <i data-lucide="file-text" class="w-8 h-8 text-blue-500"></i>
+                    <div>
+                        <h5 class="text-sm font-semibold">LKPD / Worksheets</h5>
+                        <p class="text-xs text-slate-500">Format PDF / Printable</p>
+                    </div>
+                </a>
+                <a href="#" class="p-4 bg-white rounded-xl shadow-sm border border-slate-200 hover:border-indigo-400 transition flex items-center space-x-3">
+                    <i data-lucide="mic" class="w-8 h-8 text-purple-500"></i>
+                    <div>
+                        <h5 class="text-sm font-semibold">Audio / Speaking Practice</h5>
+                        <p class="text-xs text-slate-500">Roleplay Scripts & MP3</p>
+                    </div>
+                </a>
+                <a href="#" class="p-4 bg-white rounded-xl shadow-sm border border-slate-200 hover:border-indigo-400 transition flex items-center space-x-3">
+                    <i data-lucide="book" class="w-8 h-8 text-emerald-500"></i>
+                    <div>
+                        <h5 class="text-sm font-semibold">Vocab Glossaries</h5>
+                        <p class="text-xs text-slate-500">Hotel & Fashion Terms</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-6 text-center text-xs border-t border-slate-800">
+        <div class="max-w-6xl mx-auto px-4 space-y-2">
+            <p>&copy; 2026 Vocational English Learning Hub. Designed for SMK Teaching Materials.</p>
+            <p class="text-slate-500">Hosted with GitHub Pages</p>
+        </div>
+    </footer>
+
+    <!-- Initialize Lucide Icons -->
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
